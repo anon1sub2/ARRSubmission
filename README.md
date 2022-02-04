@@ -27,8 +27,8 @@
 3. [EManuals_BERT](https://huggingface.co/abhi1nandy2/EManuals_BERT)
 4. [EManuals_RoBERTa](https://huggingface.co/abhi1nandy2/EManuals_RoBERTa)
 5. [DeCLUTR](https://huggingface.co/AnonymousSub/declutr-model)
-6. [CLINE]https://huggingface.co/AnonymousSub/cline
-7. [ConSERT]https://huggingface.co/AnonymousSub/unsup-consert-base
-8. [SPECTER]https://huggingface.co/AnonymousSub/specter-bert-model 
+6. [CLINE](https://huggingface.co/AnonymousSub/cline)
+7. [ConSERT](https://huggingface.co/AnonymousSub/unsup-consert-base)
+8. [SPECTER](https://huggingface.co/AnonymousSub/specter-bert-model)
 
 > To get the models fine-tuned on the SQuAD 2.0 models, just add `_squad2.0` at the end of a pre-trained model's link (For example, the link to the 'triplet + hier.' RoBERTa-based model obtained after pre-training and fine-tuned on SQuAD 2.0 is https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1_squad2.0)
