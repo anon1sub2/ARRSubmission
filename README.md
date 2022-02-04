@@ -1,6 +1,6 @@
 # Code for the ACL Rolling Review submission - ''
 
-## Links to pre-trained models
+## Links to models pre-trained on the EManuals Corpus
 
 - Our proposed RoBERTa-based variants
 
