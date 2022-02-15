@@ -44,3 +44,11 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 	- `<MODEL_PATH>` is the model path/HuggingFace model name.
 
 > To get the models fine-tuned on the SQuAD 2.0 models, just add `_squad2.0` at the end of a pre-trained model's link (For example, the link to the 'triplet + hier.' RoBERTa-based model obtained after pre-training and fine-tuned on SQuAD 2.0 is https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1_squad2.0)
+
+## Fine-tuning on TechQA Dataset
+
+- Go to https://github.com/anon1sub2/ARRSubmission/tree/main/TechQA_code
+
+## Fine-tuning on S10 QA Dataset
+
+- Go to https://github.com/anon1sub2/ARRSubmission/tree/main/S10_Code
