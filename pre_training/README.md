@@ -1,5 +1,9 @@
 # Pre-training
 
+## Required dependencies
+
+Please run `pip install -r requirements.txt` (`python3` required). For fine-tuning on the TechQA Dataset, use [this](https://github.com/anon1sub2/ARRSubmission/blob/main/TechQA_code/requirements.txt).
+
 - Files/Folders
 
 1. `taxonomy_hierarchy` - contains files related to hierarchical classification labels
