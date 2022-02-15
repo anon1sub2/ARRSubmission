@@ -35,4 +35,12 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 7. [ConSERT](https://huggingface.co/AnonymousSub/unsup-consert-base)
 8. [SPECTER](https://huggingface.co/AnonymousSub/specter-bert-model)
 
+## Fine-tuning on SQuAD 2.0
+
+- To download the training set, run `wget https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v2.0.json`.
+
+- Run `python3 finetune_squad.py <MODEL_TYPE> <MODEL_PATH>`
+	- `<MODEL_TYPE>` can be `bert` or `roberta`
+	- `<MODEL_PATH>` is the model path/HuggingFace model name.
+
 > To get the models fine-tuned on the SQuAD 2.0 models, just add `_squad2.0` at the end of a pre-trained model's link (For example, the link to the 'triplet + hier.' RoBERTa-based model obtained after pre-training and fine-tuned on SQuAD 2.0 is https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1_squad2.0)
