@@ -1,5 +1,9 @@
 # Code for the ACL Rolling Review submission - ''
 
+## Required dependencies
+
+Please run `pip install -r requirements.txt` (`python3` required). For fine-tuning on the TechQA Dataset, use [this](https://github.com/anon1sub2/ARRSubmission/blob/main/TechQA_code/requirements.txt).
+
 ## Links to models pre-trained on the EManuals Corpus
 
 - Our proposed RoBERTa-based variants
