@@ -1,4 +1,4 @@
-# Code for the ACL Rolling Review submission - ''
+# Code for the ACL Rolling Review submission (March 2022) - 'FPDM: A Fast Pre-training Technique using Document-Level Metadata for Reliable Customer Support Question Answering'
 
 ## Required dependencies
 
@@ -8,28 +8,28 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 
 - Our proposed RoBERTa-based variants
 
-1. [hierarchical network](https://huggingface.co/AnonymousSub/rule_based_roberta_only_classfn_epochs_1_shard_1)
-2. [triplet network](https://huggingface.co/AnonymousSub/rule_based_roberta_bert_triplet_epochs_1_shard_1)
-3. [triplet + hier. network](https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1)
+1. [<em>FPDM<sub>RoBERTa</sub> (hier.)</em>](https://huggingface.co/AnonymousSub/rule_based_roberta_only_classfn_epochs_1_shard_1)
+2. [<em>FPDM<sub>RoBERTa</sub> (triplet)</em>](https://huggingface.co/AnonymousSub/rule_based_roberta_bert_triplet_epochs_1_shard_1)
+3. [<em>FPDM<sub>RoBERTa</sub></em>](https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1)
 
 - Ablation studies - changing the document encoder of RoBERTa-based variants to 'Paragraph Encoder + 2-layer transformer' 
 
-1. [hierarchical network](https://huggingface.co/AnonymousSub/rule_based_roberta_only_classfn_twostage_epochs_1_shard_1)
-2. [triplet network](https://huggingface.co/AnonymousSub/rule_based_roberta_twostagetriplet_epochs_1_shard_1)
-3. [triplet + hier. network](https://huggingface.co/AnonymousSub/rule_based_roberta_twostagetriplet_hier_epochs_1_shard_1)
+1. [PARA ENC. + 2L <em>(hier.)</em>](https://huggingface.co/AnonymousSub/rule_based_roberta_only_classfn_twostage_epochs_1_shard_1)
+2. [PARA ENC. + 2L <em>(triplet)</em>](https://huggingface.co/AnonymousSub/rule_based_roberta_twostagetriplet_epochs_1_shard_1)
+3. [PARA ENC. + 2L](https://huggingface.co/AnonymousSub/rule_based_roberta_twostagetriplet_hier_epochs_1_shard_1)
 
 - Our proposed BERT-based variants
 
-1. [hierarchical network](https://huggingface.co/AnonymousSub/rule_based_only_classfn_epochs_1_shard_1)
-2. [triplet network](https://huggingface.co/AnonymousSub/rule_based_bert_triplet_epochs_1_shard_1)
-3. [triplet + hier. network](https://huggingface.co/AnonymousSub/rule_based_hier_triplet_epochs_1_shard_1)
+1. [<em>FPDM<sub>BERT</sub> (hier.)</em>](https://huggingface.co/AnonymousSub/rule_based_only_classfn_epochs_1_shard_1)
+2. [<em>FPDM<sub>BERT</sub> (triplet)</em>](https://huggingface.co/AnonymousSub/rule_based_bert_triplet_epochs_1_shard_1)
+3. [<em>FPDM<sub>BERT</sub></em>](https://huggingface.co/AnonymousSub/rule_based_hier_triplet_epochs_1_shard_1)
 
 - Baselines
 
-1. [bert-base-uncased](https://huggingface.co/bert-base-uncased)
-2. [roberta-base](https://huggingface.co/roberta-base)
-3. [EManuals_BERT](https://huggingface.co/abhi1nandy2/EManuals_BERT)
-4. [EManuals_RoBERTa](https://huggingface.co/abhi1nandy2/EManuals_RoBERTa)
+1. [BERT<sub>BASE</sub>](https://huggingface.co/bert-base-uncased)
+2. [RoBERTa<sub>BASE</sub>](https://huggingface.co/roberta-base)
+3. [EManuals<sub>BERT</sub>](https://huggingface.co/abhi1nandy2/EManuals_BERT)
+4. [EManuals<sub>RoBERTa</sub>](https://huggingface.co/abhi1nandy2/EManuals_RoBERTa)
 5. [DeCLUTR](https://huggingface.co/AnonymousSub/declutr-model)
 6. [CLINE](https://huggingface.co/AnonymousSub/cline)
 7. [ConSERT](https://huggingface.co/AnonymousSub/unsup-consert-base)
