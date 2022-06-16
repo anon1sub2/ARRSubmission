@@ -1,4 +1,4 @@
-# Code for the ACL Rolling Review submission (March 2022) - 'FPDM: A Fast Pre-training Technique using Document-Level Metadata for Reliable Customer Support Question Answering'
+# Code for the EMNLP 2022 submission - 'FPDM: A Fast Pre-training Technique using Document-Level Metadata for Reliable Customer Support Question Answering'
 
 ## Required dependencies
 
