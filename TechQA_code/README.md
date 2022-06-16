@@ -6,7 +6,7 @@ This repo contains code to train and run a baseline model against the TechQA dat
 
 This dataset has a leaderboard task which can be found here: http://ibm.biz/Tech_QA
 
-Please refer [here](./docker/techqa/README.md) for details about how to make a submission to the leaderboard.
+Please refer [here](https://github.com/IBM/techqa/blob/master/docker/techqa/README.md) for details about how to make a submission to the leaderboard.
 
 ## Installation
 
