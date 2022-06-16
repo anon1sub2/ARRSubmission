@@ -2,7 +2,7 @@
 
 ## Required dependencies
 
-Please run `pip install -r requirements.txt` (`python3` required). For fine-tuning on the TechQA Dataset, use [this](./blob/main/TechQA_code/requirements.txt).
+Please run `pip install -r requirements.txt` (`python3` required). For fine-tuning on the TechQA Dataset, use [this](./TechQA_code/requirements.txt).
 
 ## Links to models pre-trained on the EManuals Corpus
 
@@ -47,8 +47,8 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 
 ## Fine-tuning on TechQA Dataset
 
-- Go to [this link](./tree/main/TechQA_code)
+- Go to [this link](./TechQA_code)
 
 ## Fine-tuning on S10 QA Dataset
 
-- Go to [this link](./tree/main/S10_Code)
+- Go to [this link](./S10_Code)
