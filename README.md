@@ -28,10 +28,10 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 
 1. [BERT<sub>BASE</sub>](https://huggingface.co/bert-base-uncased)
 2. [RoBERTa<sub>BASE</sub>](https://huggingface.co/roberta-base)
-3. [EManuals<sub>BERT</sub>](https://huggingface.co/abhi1nandy2/EManuals_BERT)
-4. [EManuals<sub>RoBERTa</sub>](https://huggingface.co/abhi1nandy2/EManuals_RoBERTa)
-5. [DeCLUTR](https://huggingface.co/AnonymousSub/declutr-model)
-6. [CLINE](https://huggingface.co/AnonymousSub/cline)
+3. [Longformer](https://huggingface.co/allenai/longformer-base-4096)
+4. [EManuals<sub>BERT</sub>](https://huggingface.co/abhi1nandy2/EManuals_BERT)
+5. [EManuals<sub>RoBERTa</sub>](https://huggingface.co/abhi1nandy2/EManuals_RoBERTa)
+6. [DeCLUTR](https://huggingface.co/AnonymousSub/declutr-model)
 7. [ConSERT](https://huggingface.co/AnonymousSub/unsup-consert-base)
 8. [SPECTER](https://huggingface.co/AnonymousSub/specter-bert-model)
 
@@ -43,7 +43,7 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 	- `<MODEL_TYPE>` can be `bert` or `roberta`
 	- `<MODEL_PATH>` is the model path/HuggingFace model name.
 
-> To get the models fine-tuned on the SQuAD 2.0 models, just add `_squad2.0` at the end of a pre-trained model's link (For example, the link to the 'triplet + hier.' RoBERTa-based model obtained after pre-training and fine-tuned on SQuAD 2.0 is https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1_squad2.0)
+> To get the models fine-tuned on SQuAD 2.0, follow the following format to get the link - `https://huggingface.co/AnonymousSub/<SUBSTRING AFTER THE LAST '/' IN PRE-TRAINED MODEL LINK>_squad2.0` (For example, the link to the <em>FPDM<sub>RoBERTa</sub></em> model obtained after pre-training and fine-tuned on SQuAD 2.0 is https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1_squad2.0)
 
 ## Fine-tuning on TechQA Dataset
 
