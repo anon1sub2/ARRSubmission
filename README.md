@@ -43,7 +43,7 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 	- `<MODEL_TYPE>` can be `bert` or `roberta`
 	- `<MODEL_PATH>` is the model path/HuggingFace model name.
 
-> To get the models fine-tuned on SQuAD 2.0, follow the following format to get the link - `https://huggingface.co/AnonymousSub/<SUBSTRING AFTER THE LAST '/' IN PRE-TRAINED MODEL LINK>_squad2.0` (For example, the link to the <em>FPDM<sub>RoBERTa</sub></em> model obtained after pre-training and fine-tuned on SQuAD 2.0 is https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1_squad2.0)
+> To get the models fine-tuned on SQuAD 2.0, follow the following format to get the link - `https://huggingface.co/AnonymousSub/<SUBSTRING AFTER THE LAST '/' IN PRE-TRAINED MODEL LINK>_squad2.0` (For example, the link to the model obtained after fine-tuning <em>FPDM<sub>RoBERTa</sub></em> - https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1 on SQuAD 2.0 is https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1_squad2.0)
 
 ## Fine-tuning on TechQA Dataset
 
